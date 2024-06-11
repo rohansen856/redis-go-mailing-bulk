@@ -45,7 +45,7 @@ func LoadConfiguration() *ApplicationConfig {
 		EmailSMTPUsername:      getEnvironmentVariable("EMAIL_SMTP_USERNAME", ""),
 		EmailSMTPPassword:      getEnvironmentVariable("EMAIL_SMTP_PASSWORD", ""),
 		EmailSenderAddress:     getEnvironmentVariable("EMAIL_SENDER_ADDRESS", ""),
-		EmailSenderDisplayName: getEnvironmentVariable("EMAIL_SENDER_NAME", "MailFlow Service"),
+		EmailSenderDisplayName: getEnvironmentVariable("EMAIL_SENDER_NAME", "Vaibhav"),
 	}
 }
 
