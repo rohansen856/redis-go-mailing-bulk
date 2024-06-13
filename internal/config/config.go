@@ -40,11 +40,11 @@ func LoadConfiguration() *ApplicationConfig {
 		CacheDatabaseIndex: cacheDatabaseIndex,
 
 		// Email SMTP Configuration
-		EmailSMTPServer:        getEnvironmentVariable("EMAIL_SMTP_SERVER", ""),
+		EmailSMTPServer:        getEnvironmentVariable("EMAIL_SMTP_SERVER", "smtp.gmail.com"),
 		EmailSMTPServerPort:    smtpServerPort,
-		EmailSMTPUsername:      getEnvironmentVariable("EMAIL_SMTP_USERNAME", ""),
-		EmailSMTPPassword:      getEnvironmentVariable("EMAIL_SMTP_PASSWORD", ""),
-		EmailSenderAddress:     getEnvironmentVariable("EMAIL_SENDER_ADDRESS", ""),
+		EmailSMTPUsername:      getEnvironmentVariable("EMAIL_SMTP_USERNAME", "sahusv4527@gmail.com"),
+		EmailSMTPPassword:      getEnvironmentVariable("EMAIL_SMTP_PASSWORD", "eoakefaydppvtwir"),
+		EmailSenderAddress:     getEnvironmentVariable("EMAIL_SENDER_ADDRESS", "sahusv4527@gmail.com"),
 		EmailSenderDisplayName: getEnvironmentVariable("EMAIL_SENDER_NAME", "Vaibhav"),
 	}
 }
