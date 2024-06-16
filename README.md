@@ -128,7 +128,7 @@ This is a scalable email queue implementation in Go, utilizing Redis for queue m
 | `EMAIL_SMTP_USERNAME` | SMTP username | `recipient@gmail.com` |
 | `EMAIL_SMTP_PASSWORD` | SMTP password | - |
 | `EMAIL_SENDER_ADDRESS` | Sender email address | `recipient@gmail.com` |
-| `EMAIL_SENDER_NAME` | Sender display name | `Vaibhav` |
+| `EMAIL_SENDER_NAME` | Sender display name | `Rohan` |
 
 ## Email Queue Workflow
 
@@ -148,7 +148,7 @@ This is a scalable email queue implementation in Go, utilizing Redis for queue m
 
 ```bash
 # Clone the repository
-git clone https://github.com/Vaibhavsahu2810/email-queue-implementation.git
+git clone https://github.com/rohansen856/redis-go-mailing-bulk.git
 
 # Set required environment variables
 
@@ -180,4 +180,4 @@ go run ./cmd/server/main.go
 
 ## Authors
 
-Vaibhav Sahu
+Rohan

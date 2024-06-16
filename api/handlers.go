@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	queue "github.com/Vaibhavsahu2810/email-queue-implementation/internal/redisQueue"
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
+	queue "github.com/rohansen856/redis-go-mailing-bulk/internal/redisQueue"
 )
 
 var validate = validator.New()
@@ -255,4 +255,3 @@ func sanitizeTemplateData(data map[string]interface{}) map[string]interface{} {
 	}
 	return sanitized
 }
-

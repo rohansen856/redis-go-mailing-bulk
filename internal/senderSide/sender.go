@@ -6,8 +6,8 @@ import (
 	"net/smtp"
 	"strings"
 
-	"github.com/Vaibhavsahu2810/email-queue-implementation/internal/config"
-	templates "github.com/Vaibhavsahu2810/email-queue-implementation/internal/emailTemplate"
+	"github.com/rohansen856/redis-go-mailing-bulk/internal/config"
+	templates "github.com/rohansen856/redis-go-mailing-bulk/internal/emailTemplate"
 )
 
 type Sender struct {

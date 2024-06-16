@@ -1,4 +1,4 @@
-module github.com/Vaibhavsahu2810/email-queue-implementation
+module github.com/rohansen856/redis-go-mailing-bulk
 
 go 1.22.5
 

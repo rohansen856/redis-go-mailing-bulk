@@ -11,12 +11,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Vaibhavsahu2810/email-queue-implementation/api"
-	"github.com/Vaibhavsahu2810/email-queue-implementation/internal/config"
-	templates "github.com/Vaibhavsahu2810/email-queue-implementation/internal/emailTemplate"
-	queue "github.com/Vaibhavsahu2810/email-queue-implementation/internal/redisQueue"
-	email "github.com/Vaibhavsahu2810/email-queue-implementation/internal/senderSide"
 	"github.com/gin-gonic/gin"
+	"github.com/rohansen856/redis-go-mailing-bulk/api"
+	"github.com/rohansen856/redis-go-mailing-bulk/internal/config"
+	templates "github.com/rohansen856/redis-go-mailing-bulk/internal/emailTemplate"
+	queue "github.com/rohansen856/redis-go-mailing-bulk/internal/redisQueue"
+	email "github.com/rohansen856/redis-go-mailing-bulk/internal/senderSide"
 )
 
 func main() {

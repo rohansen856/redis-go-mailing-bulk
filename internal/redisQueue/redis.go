@@ -7,9 +7,9 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/Vaibhavsahu2810/email-queue-implementation/internal/config"
-	email "github.com/Vaibhavsahu2810/email-queue-implementation/internal/senderSide"
 	"github.com/go-redis/redis/v8"
+	"github.com/rohansen856/redis-go-mailing-bulk/internal/config"
+	email "github.com/rohansen856/redis-go-mailing-bulk/internal/senderSide"
 )
 
 const (
